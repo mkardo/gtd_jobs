@@ -1,0 +1,6 @@
+name: GTD jobs
+description: This is my module
+package: Custom
+
+type: module
+core: 8.x

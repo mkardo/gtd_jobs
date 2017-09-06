@@ -1,0 +1,13 @@
+gtd_jobs.content:
+  path: '/jobs/{text}'
+  defaults:
+    _controller: '\Drupal\gtd_jobs\Controller\MyController::content'
+  requirements:
+    _permission: 'access content'
+    arg: ^[a-z_]+
+gtd_jobs.form:
+  path: '/jobs/form'
+  defaults:     
+    _form: '\Drupal\gtd_jobs\Form\MyForm'
+  requirements:
+    _permission: 'access content' 
